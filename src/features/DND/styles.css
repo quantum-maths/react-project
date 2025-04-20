@@ -1,0 +1,36 @@
+.canvas-container {
+  padding: 20px;
+  height: 100vh;
+  background: #f9f9f9;
+}
+
+.reset-btn {
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border: 1px solid burlywood;
+  cursor: pointer;
+  background-color: azure;
+  transition: all 0.3s;
+}
+
+.reset-btn:hover {
+  background-color: aquamarine;
+}
+
+.blocks-data {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  border: 1px solid #ccc;
+}
+
+.close-icon-btn {
+  position: absolute;
+  top: 9px;
+  right: 9px;
+  background: red;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

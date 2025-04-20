@@ -1,0 +1,54 @@
+.header-container {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.start {
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: rgb(65, 218, 51);
+  border: 1px solid rgb(77, 180, 46);
+  cursor: pointer;
+}
+
+.stop {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: 1px solid rgb(211, 58, 58);
+  background-color: rgb(223, 34, 34);
+  cursor: pointer;
+}
+
+.start:hover {
+  background-color: rgb(122, 209, 114);
+}
+
+.stop:hover {
+  background-color: rgb(201, 87, 87);
+}
+
+.transaction-list {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.transaction-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.transaction-list::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+.transactions-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.transactions-th,
+.transactions-td {
+  border: 1px solid #000;
+  padding: 8px;
+}
